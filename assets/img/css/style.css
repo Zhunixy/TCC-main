@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h6{
+    color: #D8d8d8;
+}
+
+button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.nav-buttons{
+    margin-left: 60%;
+}
+
+.navbar{
+    font-size: 16px !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.4 ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar i:hover, 
+.navbar-light .navbar-nav .nav-link.active, .navbar i:hover{
+    color: coral;
+}
+
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 15px;
+    transition: 0.4s ease;;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.vc{
+    text-decoration: none !important;
+    color: #000;
+}
+
+@media only screen and (max-width:990px){
+    .nav-buttons{
+        margin: 10px;
+    }
+
+    .nav-buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .nav-buttons ul .fas{
+        margin: 20px 5px 10px 20px;
+    }
+}
+
+#home {
+    background-image: url('../img/bg.jpg'); /* Corrija o caminho conforme necessário */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span{
+    color: #fb774b
+}
+
+#new .one img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#new .one{
+    position: relative;
+}
+
+#new .one .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: burlywood;
+    font-weight: bold;
+    transition: 0.4s ease;
+    opacity: 0.8;
+    background-color: rgb(1,1,1);
+    width: 100%;
+    height: 100%;
+}
+
+#new .one .details:hover{
+    background-color: cornsilk;
+}
+
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+}
+
+/* Produtos */
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity:0.7;
+}
+
+hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: #fb774b;
+}
+
+.hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: #fb774b;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.star{
+    padding: 10px 0;
+}
+
+.star i{
+    font-size: 0.9rem;
+    color: goldenrod;
+}
+
+#banner{
+    background-image: url('https://c.pxhere.com/photos/fc/13/keyboard_black_notebook_input_letters_leave_enter_laptop-625552.jpg!d');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 80px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h1{
+    color: rgb(255, 255, 255);
+}
+
+#banner h4{
+    color: white;
+}
+
+#banner button{
+    background-color: #fb774b;
+}
+
+#banner button:hover{
+    background-color: #1d1d1d;
+}
+
+footer{
+    background-color: #222222;
+    overflow: hidden;
+}
+
+footer h5{
+    color: #D8d8d8;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #d8d8d8;
+}
+
+footer .copyright a{
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover{
+    color: #fff;
+    background-color: #fb774b;
+}
+
+footer p{
+    color: #fff;
+
+}
+
+footer .copyright img{
+    width: 30%;
+}
+
+.logo{
+    width: 140px !important;
+    height: 140px !important;
+    margin: -40px;
+
+}
+
+/*CONTATO*/
+
+#contact span{
+    color: #fb774b;
+}
+
+.ii{
+    color: black;
+}
+

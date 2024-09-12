@@ -1,0 +1,126 @@
+/* Assets/css/style.css */
+
+/* Ajuste de altura */
+body {
+    padding-top: 5rem;
+}
+
+.logo {
+    width: 50px;
+}
+
+.ii {
+    font-size: 1.5rem;
+}
+
+#search {
+    margin-top: 5rem;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Ajustes dos Produtos */
+#featured {
+    margin-top: 2rem;
+}
+
+.product {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.star {
+    color: gold;
+}
+
+.p-name {
+    font-weight: bold;
+}
+
+.p-price {
+    color: orange;
+}
+
+.buy-btn {
+   
+    color: white;
+}
+
+/* Ajustes do Rodapé */
+footer {
+    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+footer .footer-one {
+    margin-bottom: 2rem;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer .text-uppercase {
+    text-transform: uppercase;
+}
+
+footer .text-nowrap {
+    white-space: nowrap;
+}
+
+footer img {
+    max-width: 100%;
+}
+
+.icones{
+    background-color: #fb774b !important;
+    padding: 8px !important;
+    border-radius: 0.5rem;
+    color: white !important;
+}
+
+/* loja.css */
+#search {
+    background-color: #f8f9fa; /* Cor de fundo leve */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.form-check-label {
+    margin-left: 10px; /* Espaço à esquerda do texto do controle de rádio */
+}
+
+.form-range {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+}
+
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.form-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    cursor: pointer;
+    border-radius: 50%;
+}
